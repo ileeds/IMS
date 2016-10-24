@@ -1,1 +1,3 @@
 # IMS
+IMS.rb creates (if does not exist) or uses store.pstore to save the state of a DJ's tracks and artists. The user can choose to exit (which saves state), help to display instructions, info to retrieve info about the current state or an artist or a track, add to add an artist or track, play to play a song, count to get the number of tracks of an artist, and list to list the tracks of an artist.
+The @hash in IMS keeps track of the last 3 tracks played, the total tracks, and total artists. Artists have a name, as well as an array of tracks. Tracks have a title, their artist, the time it were last played, an ID number, and the number of times it was played.
